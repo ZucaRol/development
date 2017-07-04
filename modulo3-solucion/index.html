@@ -1,25 +1,29 @@
 <!DOCTYPE html>
+<!-- browser-sync start --server --directory --files "**/*" -->
 <html>
 <head>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Solución del modulo 2</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>Solución del modulo 3</title>
 	<meta name="viewport" content="width=divice-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<nav class="navbar navbar-default">
+<nav id="header-nav" class="navbar navbar-default navbar-static-top">
   <div class="container-fluid">
-	    <div class="navbar-header">
+  	<div class="navbar-header">
 		   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		   </button>
-	       <a class="navbar-brand" href="#">Food, LLC</a>
+		   <div class="navbar-brand" >
+		   	<a href="#">Food, LLC</a>
+		   </div>
+	       
+	</div>
 	      <!--Contenido del botón mobil-->
 		  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			    <ul class="nav navbar-nav navbar-right">
@@ -27,8 +31,7 @@
 			       <li class="text-center visible-xs"><a  href="#">Beef</a></li>
 			       <li class="text-center  visible-xs"><a  href="#">Sushi</a></li>
 			    </ul>
-		    </div><!-- /.navbar-collapse -->
-		 </div>
+		    </div><!-- /.navbar-collapse --> 
   </div>
 </nav>
 	<h1 class="text-center">Our Menu</h1>
@@ -37,7 +40,7 @@
   	<script src="js/bootstrap.min.js"></script>
   	<script src="js/script.js"></script>
 	<div class="row">
-		<div class="container col-lg-12 col-md-12 col-xs-12">
+		<div class="container col-xs-12">
 			<section>
 				<div id="tacos">Chiken</div>
 				<p>La orden incluye 5 tacos al gusto:</p>
